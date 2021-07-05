@@ -1,0 +1,56 @@
+Last login: Mon Jul  5 19:06:11 on ttys000
+miyamu@KazushinoMacBook-puro ~ % cd gittraining 
+miyamu@KazushinoMacBook-puro gittraining % git commit
+hint: Waiting for your editor to close the file... error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+miyamu@KazushinoMacBook-puro gittraining % 
+miyamu@KazushinoMacBook-puro gittraining % git add .
+warning: adding embedded git repository: test/atom
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> test/atom
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached test/atom
+hint: 
+hint: See "git help submodule" for more information.
+miyamu@KazushinoMacBook-puro gittraining % cd git 
+miyamu@KazushinoMacBook-puro git % git init
+Initialized empty Git repository in /Users/miyamu/gittraining/git/.git/
+miyamu@KazushinoMacBook-puro git % ls
+index.html
+miyamu@KazushinoMacBook-puro git % git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+miyamu@KazushinoMacBook-puro git % git add .
+miyamu@KazushinoMacBook-puro git % git commit
+hint: Waiting for your editor to close the file... 
+initial commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   index.html
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
